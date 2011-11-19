@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	android:background="@android:drawable/alert_light_frame"
+	android:gravity="left|center_vertical" android:orientation="vertical">
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:gravity="center_horizontal|center_vertical"
+		android:orientation="horizontal" android:paddingBottom="3dp">
+
+		<TextView android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:id="@android:id/text1"
+			android:textColor="@android:color/primary_text_light_nodisable"
+			android:text="Title" android:textStyle="bold" 
+		    android:textSize="16sp"/>
+
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:id="@android:id/text2"
+		android:textColor="@android:color/primary_text_light_nodisable"
+		android:text="Some popup text goes here" android:textSize="14sp" android:gravity="left|center_vertical"
+			android:minHeight="110dp"
+			android:paddingLeft="2dp" android:paddingRight="2dp"/>
+
+</LinearLayout>

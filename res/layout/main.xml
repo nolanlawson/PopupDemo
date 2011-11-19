@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp">
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Click for Downward Popup"
+        android:id="@android:id/button1" 
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+    
+    
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Click for Upward Popup"
+        android:id="@android:id/button2" 
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+    
+    
+</RelativeLayout>
